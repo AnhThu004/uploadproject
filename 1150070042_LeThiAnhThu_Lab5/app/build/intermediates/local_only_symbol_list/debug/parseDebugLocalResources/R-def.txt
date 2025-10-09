@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_execute
+id btn_lab1
+id btn_lab2
+id btn_lab3
+id btn_quick_job
+id btn_slow_job
+id btn_start
+id et_input
+id pb_first
+id pb_second
+id pb_waiting
+id tv_return
+id tv_status
+id tv_top_caption
+id tv_working
+layout acitivity_message
+layout activity_async
+layout activity_main
+layout activity_post
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.MultiThread
+style Theme.MultiThread
+xml backup_rules
+xml data_extraction_rules

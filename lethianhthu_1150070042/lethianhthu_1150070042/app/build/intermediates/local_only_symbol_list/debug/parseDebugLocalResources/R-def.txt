@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+dimen margin_base
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_open_part2
+id lv_contacts
+id lv_user
+id textView
+id textView3
+id tv_contact
+id tv_user
+layout part1_activity_main
+layout part1_item_user
+layout part2_activity_main
+layout part2_item_contact
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.MyApplication
+style Theme.MyApplication
+xml backup_rules
+xml data_extraction_rules
