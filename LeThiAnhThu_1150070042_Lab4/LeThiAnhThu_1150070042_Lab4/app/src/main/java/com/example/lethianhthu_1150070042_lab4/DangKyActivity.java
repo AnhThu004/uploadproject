@@ -1,0 +1,21 @@
+package com.example.lethianhthu_1150070042_lab4;
+
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class DangKyActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_dangky);
+
+        Button btnDangKy = findViewById(R.id.btnDangKy);
+        btnDangKy.setOnClickListener(v ->
+                Toast.makeText(this, "Bạn đã nhấn Đăng Ký", Toast.LENGTH_SHORT).show()
+        );
+    }
+}

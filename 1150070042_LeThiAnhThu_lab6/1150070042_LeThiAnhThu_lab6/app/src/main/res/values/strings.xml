@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Lab06_Animation</string>
+
+    <string name="from_xml">FROM XML</string>
+    <string name="from_code">FROM CODE</string>
+    <string name="fade_in">Fade In</string>
+    <string name="fade_out">Fade Out</string>
+    <string name="blink">Blink</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="rotate">Rotate</string>
+    <string name="move">Move</string>
+    <string name="slide_up">Slide Up</string>
+    <string name="bounce">Bounce</string>
+    <string name="combine">Combine</string>
+
+    <string name="back">BACK</string>
+    <string name="welcome">WELCOME TO MAIN 2 ACTIVITY</string>
+
+    <string name="elizabeth_name">Elizabeth Johnson</string>
+    <string name="elizabeth_title">Project Manager</string>
+    <string name="elizabeth_email">elizabethjohnson@example.com</string>
+    <string name="catherine_name">Catherine Johnson</string>
+    <string name="catherine_title">President of Sales</string>
+    <string name="catherine_email">catherinejohnson@example.com</string>
+</resources>

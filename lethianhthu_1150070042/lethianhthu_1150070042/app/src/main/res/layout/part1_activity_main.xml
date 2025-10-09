@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAB 3"
+        android:textSize="20sp"
+        android:textColor="#E91E63"
+        android:background="@color/material_dynamic_secondary30"/>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SVTH: Lê Thị Anh Thư"
+        android:textSize="20dp"
+        android:textColor="#FF5722"
+        android:background="@color/material_dynamic_neutral30"
+        android:layout_marginTop="4dp"/>
+
+    <!-- ListView chiếm toàn bộ phần trống -->
+    <ListView
+        android:id="@+id/lv_user"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- Nút nằm dưới cùng -->
+    <Button
+        android:id="@+id/btn_open_part2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mở Bài 2 (Contact)"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
