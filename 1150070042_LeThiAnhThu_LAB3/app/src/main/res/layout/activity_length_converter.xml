@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LengthConverterActivity"> <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/length_app_name" android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:baselineAligned="false">
+
+        <EditText
+            android:id="@+id/txtNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/textbox_hint"
+            android:inputType="numberDecimal"
+            android:layout_marginEnd="8dp"/>
+
+        <Spinner
+            android:id="@+id/spnUnit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp">
+
+        <TableLayout
+            android:id="@+id/tl_length_results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow style="@style/result_row_style_table">
+                <TextView style="@style/result_unit_label_style" android:text="@string/km_unit"/>
+                <TextView android:id="@+id/lblKm" style="@style/result_value_style_table" tools:text="0.00000"/>
+            </TableRow>
+
+            <TableRow style="@style/result_row_style_table">
+                <TextView style="@style/result_unit_label_style" android:text="@string/hm_unit"/>
+                <TextView android:id="@+id/lblHm" style="@style/result_value_style_table" tools:text="0.00000"/>
+            </TableRow>
+
+            <TableRow style="@style/result_row_style_table">
+                <TextView style="@style/result_unit_label_style" android:text="@string/m_unit"/>
+                <TextView android:id="@+id/lblM" style="@style/result_value_style_table" tools:text="0.00000"/>
+            </TableRow>
+
+            <TableRow style="@style/result_row_style_table">
+                <TextView style="@style/result_unit_label_style" android:text="@string/mile_unit"/>
+                <TextView android:id="@+id/lblMile" style="@style/result_value_style_table" tools:text="0.00000"/>
+            </TableRow>
+
+            <TableRow style="@style/result_row_style_table">
+                <TextView style="@style/result_unit_label_style" android:text="@string/yard_unit"/>
+                <TextView android:id="@+id/lblYard" style="@style/result_value_style_table" tools:text="0.00000"/>
+            </TableRow>
+
+            <TableRow style="@style/result_row_style_table">
+                <TextView style="@style/result_unit_label_style" android:text="@string/foot_unit"/>
+                <TextView android:id="@+id/lblFoot" style="@style/result_value_style_table" tools:text="0.00000"/>
+            </TableRow>
+
+            <TableRow style="@style/result_row_style_table">
+                <TextView style="@style/result_unit_label_style" android:text="@string/inch_unit"/>
+                <TextView android:id="@+id/lblInch" style="@style/result_value_style_table" tools:text="0.00000"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

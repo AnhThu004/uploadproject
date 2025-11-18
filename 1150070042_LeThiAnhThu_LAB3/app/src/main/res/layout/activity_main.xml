@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/app_name"
+     android:textSize="20sp"
+     android:textStyle="bold"
+     android:layout_gravity="center_horizontal"
+     android:layout_marginBottom="16dp"/>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:gravity="center_vertical"
+     android:paddingBottom="10dp"
+     android:baselineAligned="false">
+
+  <EditText
+      android:id="@+id/txtNumber"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:ems="10"
+      android:hint="@string/textbox_hint"
+      android:inputType="numberDecimal"
+      android:layout_marginEnd="8dp"/>
+
+  <Spinner
+      android:id="@+id/spnUnit"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"/>
+ </LinearLayout>
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1"
+     android:layout_marginTop="16dp">
+
+  <TableLayout
+      android:id="@+id/tl_currency_results"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:stretchColumns="*">
+
+   <TableRow style="@style/result_row_style_flag">
+    <ImageView style="@style/result_flag_style" android:src="@drawable/america" android:contentDescription="@string/usd_name"/>
+    <TextView style="@style/result_unit_label_style" android:text="@string/usd_unit"/>
+    <TextView android:id="@+id/lblUsd" style="@style/result_value_style_table" tools:text="100.00000"/>
+   </TableRow>
+
+   <TableRow style="@style/result_row_style_flag">
+    <ImageView style="@style/result_flag_style" android:src="@drawable/european" android:contentDescription="@string/eur_name"/>
+    <TextView style="@style/result_unit_label_style" android:text="@string/eur_unit"/>
+    <TextView android:id="@+id/lblEur" style="@style/result_value_style_table" tools:text="80.51800"/>
+   </TableRow>
+
+   <TableRow style="@style/result_row_style_flag">
+    <ImageView style="@style/result_flag_style" android:src="@drawable/greatbritain" android:contentDescription="@string/gbp_name"/>
+    <TextView style="@style/result_unit_label_style" android:text="@string/gbp_unit"/>
+    <TextView android:id="@+id/lblGbp" style="@style/result_value_style_table" tools:text="64.07000"/>
+   </TableRow>
+
+   <TableRow style="@style/result_row_style_flag">
+    <ImageView style="@style/result_flag_style" android:src="@drawable/indian" android:contentDescription="@string/inr_name"/>
+    <TextView style="@style/result_unit_label_style" android:text="@string/inr_unit"/>
+    <TextView android:id="@+id/lblInr" style="@style/result_value_style_table" tools:text="6333.18000"/>
+   </TableRow>
+
+   <TableRow style="@style/result_row_style_flag">
+    <ImageView style="@style/result_flag_style" android:src="@drawable/australia" android:contentDescription="@string/aud_name"/>
+    <TextView style="@style/result_unit_label_style" android:text="@string/aud_unit"/>
+    <TextView android:id="@+id/lblAud" style="@style/result_value_style_table" tools:text="121.82800"/>
+   </TableRow>
+
+   <TableRow style="@style/result_row_style_flag">
+    <ImageView style="@style/result_flag_style" android:src="@drawable/canadian" android:contentDescription="@string/cad_name"/>
+    <TextView style="@style/result_unit_label_style" android:text="@string/cad_unit"/>
+    <TextView android:id="@+id/lblCad" style="@style/result_value_style_table" tools:text="116.23600"/>
+   </TableRow>
+
+   <TableRow style="@style/result_row_style_flag">
+    <ImageView style="@style/result_flag_style" android:src="@drawable/southafrica" android:contentDescription="@string/zar_name"/>
+    <TextView style="@style/result_unit_label_style" android:text="@string/zar_unit"/>
+    <TextView android:id="@+id/lblZar" style="@style/result_value_style_table" tools:text="1171.29000"/>
+   </TableRow>
+
+   <TableRow style="@style/result_row_style_flag">
+    <ImageView style="@style/result_flag_style" android:src="@drawable/newzealand" android:contentDescription="@string/nzd_name"/>
+    <TextView style="@style/result_unit_label_style" android:text="@string/nzd_unit"/>
+    <TextView android:id="@+id/lblNzd" style="@style/result_value_style_table" tools:text="129.31000"/>
+   </TableRow>
+
+   <TableRow style="@style/result_row_style_flag">
+    <ImageView style="@style/result_flag_style" android:src="@drawable/japan" android:contentDescription="@string/jpy_name"/>
+    <TextView style="@style/result_unit_label_style" android:text="@string/jpy_unit"/>
+    <TextView android:id="@+id/lblJpy" style="@style/result_value_style_table" tools:text="11833.70000"/>
+   </TableRow>
+
+   <TableRow style="@style/result_row_style_flag">
+    <ImageView style="@style/result_flag_style" android:src="@drawable/vn" android:contentDescription="@string/vnd_name"/>
+    <TextView style="@style/result_unit_label_style" android:text="@string/vnd_unit"/>
+    <TextView android:id="@+id/lblVnd" style="@style/result_value_style_table" tools:text="21385.70"/>
+   </TableRow>
+
+  </TableLayout>
+ </ScrollView>
+
+</LinearLayout>

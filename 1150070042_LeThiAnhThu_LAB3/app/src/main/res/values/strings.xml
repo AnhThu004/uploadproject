@@ -1,0 +1,45 @@
+<resources>
+        <string name="author">Điền họ và tên của bạn</string>
+        <string name="computer">Điền tên máy đang dùng</string>
+        <string name="textbox_hint">Nhập số tiền</string>
+        <string name="app_name">Chương trình đổi tiền</string>
+
+        <string name="usd_name">American Dollar</string>
+        <string name="eur_name">European Cash</string>
+        <string name="gbp_name">Great Britain Pound</string>
+        <string name="inr_name">Indian Rupee</string>
+        <string name="aud_name">Australia Dollar</string>
+        <string name="cad_name">Canadian Dollar</string>
+        <string name="zar_name">South Africa Rand</string>
+        <string name="nzd_name">New Zealand Dollar</string>
+        <string name="jpy_name">Yên Nhật</string>
+        <string name="vnd_name">Việt Nam Đồng</string>
+
+        <string name="usd_unit">USD</string>
+        <string name="eur_unit">EUR</string>
+        <string name="gbp_unit">GBP</string>
+        <string name="inr_unit">INR</string>
+        <string name="aud_unit">AUD</string>
+        <string name="cad_unit">CAD</string>
+        <string name="zar_unit">ZAR</string>
+        <string name="nzd_unit">NZD</string>
+        <string name="jpy_unit">JPY</string>
+        <string name="vnd_unit">VNĐ</string>
+
+        <string name="length_app_name">Chương trình đổi độ dài</string>
+        <string name="km_name">Kilometre</string>
+        <string name="hm_name">Hectometre</string>
+        <string name="m_name">Metre</string>
+        <string name="mile_name">Dặm (Mile)</string>
+        <string name="yard_name">Yard</string>
+        <string name="foot_name">Foot</string>
+        <string name="inch_name">Inch</string>
+
+        <string name="km_unit">KM</string>
+        <string name="hm_unit">HM</string>
+        <string name="m_unit">M</string>
+        <string name="mile_unit">Dặm</string>
+        <string name="yard_unit">Yard</string>
+        <string name="foot_unit">Foot</string>
+        <string name="inch_unit">Inch</string>
+</resources>

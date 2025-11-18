@@ -1,0 +1,43 @@
+<resources>
+    <style name="result_flag_style">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:paddingEnd">10dp</item>
+    </style>
+
+    <style name="result_unit_label_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingEnd">10dp</item>
+    </style>
+
+    <style name="result_value_style_table">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">end</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <style name="result_row_style_flag">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">#F5F5F5</item>
+    </style>
+
+    <style name="result_row_style_table">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">#F5F5F5</item>
+    </style>
+</resources>
