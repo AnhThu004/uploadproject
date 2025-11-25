@@ -1,0 +1,45 @@
+<resources>
+        <string name="app_name">Truyện Cười Dân Gian</string>
+        <string name="txt_topic_default">Trạng Quỳnh</string>
+        <string name="txt_story_default">Tên Truyện Mặc Định</string>
+
+        <string-array name="topic_keys">
+                <item>trang_quynh</item>
+                <item>trang_lon</item>
+        </string-array>
+
+        <string-array name="topic_photo_ids">
+                <item>truyen1</item>
+                <item>truyen6</item>
+        </string-array>
+
+        <string-array name="trang_quynh_names">
+                <item>Đánh lừa Chúa</item>
+                <item>Lấy vợ cho Trạng</item>
+                <item>Cái giá trị của cái chết</item>
+                <item>Bức tranh của chúa</item>
+                <item>Đám ma thầy</item>
+        </string-array>
+        <string-array name="trang_quynh_contents">
+                <item>Quỳnh đem một quả bí to dâng Chúa. Chúa hỏi: "Quả bí này có phải là vật lớn nhất không?". Quỳnh đáp: "Tâu Chúa, không phải, vật lớn nhất là đầu voi!". Chúa bực, nhưng không làm gì được.</item>
+                <item>Mẹ Quỳnh thấy con lớn mà chưa có vợ, muốn cưới cho Quỳnh một cô gái làng bên xinh đẹp. Quỳnh trêu mẹ khiến mẹ phải cười ra nước mắt.</item>
+                <item>Có người bạn thân vừa chết, Quỳnh khóc than thảm thiết. Có người hỏi: "Tại sao khóc dữ vậy?". Quỳnh đáp: "Khóc vì tiếc của! Giá trị của cái chết còn cao hơn cái sống!".</item>
+                <item>Chúa ban cho Quỳnh một bức tranh vẽ con mèo, bắt Quỳnh phải khen. Quỳnh khen: "Mèo Chúa vẽ thật giống gà!". Chúa giận tím mặt.</item>
+                <item>Thầy giáo cũ của Quỳnh mất, Quỳnh đến viếng. Thấy tang gia khóc lóc, Quỳnh cũng khóc theo, nhưng chỉ khóc to hơn khi thấy cỗ bàn được dọn ra.</item>
+        </string-array>
+
+        <string-array name="trang_lon_names">
+                <item>Vợ Trạng đi chợ</item>
+                <item>Trạng Lợn bán trâu</item>
+                <item>Khôn ba năm dại một giờ</item>
+                <item>Lấy thước đo vợ</item>
+                <item>Trạng đi thi</item>
+        </string-array>
+        <string-array name="trang_lon_contents">
+                <item>Vợ Trạng Lợn ra chợ bán lợn. Hỏi mua bao nhiêu, vợ Trạng bảo: "Cả con lợn đấy!". Người mua cười ầm cả chợ.</item>
+                <item>Trạng Lợn bán trâu được tiền, về khoe với vợ. Vợ hỏi: "Sao không giữ trâu lại mà dùng?". Trạng Lợn bảo: "Trâu giờ rẻ lắm, bán lấy tiền ăn đã!".</item>
+                <item>Trạng Lợn khoe mình khôn, nhưng chỉ sau một khắc đã bị lừa mất cái áo mới. Mọi người bảo: "Khôn ba năm dại một giờ là đây!".</item>
+                <item>Trạng Lợn muốn biết vợ cao bao nhiêu, lấy thước ra đo từ đầu đến chân. Vợ ngạc nhiên hỏi: "Sao không nhìn mà đo?". Trạng đáp: "Đo cho chắc!".</item>
+                <item>Trạng Lợn đi thi, câu văn thì dốt nhưng chữ viết thì đẹp. Quan chấm thi đọc không hiểu, nhưng thấy chữ đẹp nên cho đỗ, vì nghĩ phải là người tài mới viết được chữ đẹp như vậy.</item>
+        </string-array>
+</resources>
